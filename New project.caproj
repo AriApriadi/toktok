@@ -1,0 +1,336 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2project>
+    <name>New project</name>
+    <description></description>
+    <version>1.0.0.0</version>
+    <author></author>
+    <author-email></author-email>
+    <author-website>http://</author-website>
+    <app-id>com.mycompany.myapp</app-id>
+    <unique-id>2m2oqhlgof90t</unique-id>
+    <saved-with-version>26400</saved-with-version>
+    <used-plugins>
+        <plugin author="Scirra" id="Audio" version="1">Audio</plugin>
+        <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
+        <plugin author="Scirra" id="Particles" version="1">Particles</plugin>
+        <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="Text" version="1">Text</plugin>
+        <plugin author="Scirra" id="Touch" version="1">Touch</plugin>
+    </used-plugins>
+    <used-behaviors>
+        <behavior author="Scirra" id="Bullet" version="1">Bullet</behavior>
+        <behavior author="Scirra" id="EightDir" version="1">8 Direction</behavior>
+        <behavior author="Scirra" id="bound" version="1">Bound to layout</behavior>
+        <behavior author="Scirra" id="solid" version="1">Solid</behavior>
+    </used-behaviors>
+    <used-effects />
+    <configurations>
+        <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
+    </configurations>
+    <window-size>
+        <width>480</width>
+        <height>854</height>
+    </window-size>
+    <pixel-rounding>0</pixel-rounding>
+    <preview-effects>1</preview-effects>
+    <use-loader-layout>0</use-loader-layout>
+    <configuration-settings>
+        <prop name="Clear background">Yes</prop>
+        <prop name="Enable WebGL">On</prop>
+        <prop name="Fullscreen in browser">Letterbox scale</prop>
+        <prop name="Fullscreen scaling">High quality</prop>
+        <prop name="Loader style">Progress bar &amp; logo</prop>
+        <prop name="Orientations">Portrait</prop>
+        <prop name="Pause on unfocus">No</prop>
+        <prop name="Physics engine">Box2D asm.js</prop>
+        <prop name="Preview browser">(default)</prop>
+        <prop name="Sampling">Linear</prop>
+        <prop name="Use high-DPI display">Yes</prop>
+    </configuration-settings>
+    <object-folder>
+        <object-type name="backroundgameplay" sid="907965196236095">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="898344456342244" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\bahan game\backround(gameplay).png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="target" sid="776991686119865">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="3" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="651977716349529" speed="5">
+                    <frame duration="1" hotspotX="0.505882" hotspotY="0.505882" original-source="F:\bahan game\target1.png" />
+                    <frame duration="1" hotspotX="0.505882" hotspotY="0.505882" original-source="F:\bahan game\target2.png" />
+                    <frame duration="1" hotspotX="0.505882" hotspotY="0.505882" original-source="F:\bahan game\target3.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="target2" sid="752100895595878">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="651592052207134" speed="5">
+                    <frame duration="1" hotspotX="0.505882" hotspotY="0.505882" original-source="F:\bahan game\target2.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="target3" sid="721041794704141">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="3" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="577448100116344" speed="5">
+                    <frame duration="1" hotspotX="0.505882" hotspotY="0.505882" original-source="F:\bahan game\target1.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\bahan game\target2.png" />
+                    <frame duration="1" hotspotX="0.505882" hotspotY="0.505882" original-source="F:\bahan game\target3.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="target4" sid="366206529459066">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="540136378965267">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="3" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="405382580590401" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\bahan game\target1.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\bahan game\target2.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\bahan game\target3.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="papan" sid="130178495845932">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="244733298588147">
+                    <behavior id="solid" />
+                </behavior-type>
+                <behavior-type name="8Direction" sid="796560041710781">
+                    <behavior id="EightDir" />
+                </behavior-type>
+                <behavior-type name="BoundToLayout" sid="422215064139280">
+                    <behavior id="bound" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="101269652911946" speed="5">
+                    <frame duration="1" hotspotX="0.503759" hotspotY="0.5" original-source="F:\bahan game\papan.png">
+                        <collision-poly>
+                            <point x="0.0225564" y="0.115385" />
+                            <point x="0.50188" y="0.115385" />
+                            <point x="0.977444" y="0.115385" />
+                            <point x="1" y="0.5" />
+                            <point x="0.977444" y="0.884615" />
+                            <point x="0.496241" y="1" />
+                            <point x="0.0225564" y="0.884615" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="bola" sid="990332630909385">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Bullet" sid="969195485642359">
+                    <behavior id="Bullet" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="378528354232265" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\bahan game\bola.png">
+                        <collision-poly>
+                            <point x="0.14" y="0.14" />
+                            <point x="0.5" y="0" />
+                            <point x="0.86" y="0.14" />
+                            <point x="1" y="0.5" />
+                            <point x="0.82" y="0.82" />
+                            <point x="0.5" y="0.94" />
+                            <point x="0.18" y="0.82" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite" sid="815046192686214">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="662760245157529" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite2" sid="656004205059564">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="991095993620564">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="952823109319307" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Keyboard" sid="625008439428769">
+            <plugin id="Keyboard" />
+        </object-type>
+        <object-type name="ledakan" sid="753305441999151">
+            <plugin id="Particles" />
+            <texture />
+        </object-type>
+        <object-type name="Text" sid="542091537983114">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="bgscore" sid="578215914425211">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="938732575299190" speed="5">
+                    <frame duration="1" hotspotX="0.511111" hotspotY="0.511111" original-source="H:\Tugas\semester 5\IMK\projeck\bahan\bahan foto audio\stop.png">
+                        <collision-poly>
+                            <point x="0.148" y="0.148" />
+                            <point x="0.5" y="0.004" />
+                            <point x="0.852" y="0.148" />
+                            <point x="1" y="0.5" />
+                            <point x="0.852" y="0.852" />
+                            <point x="0.5" y="0.994" />
+                            <point x="0.146" y="0.854" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite3" sid="777070872398097">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="986797097190878" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="H:\Tugas\semester 5\game\baru\bahan game\backround(gameplay).png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite4" sid="418467887902232">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="176316472226541" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="H:\Tugas\semester 5\game\baru\bahan game\backround(gameplay).png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="gb" sid="388178484178129">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="875197795515617" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="H:\Tugas\semester 5\game\baru\bahan game\backround(gameplay).png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite5" sid="576280674202412">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="684663614289887" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501887" original-source="H:\projek\game\tugas2\pic\GameOver.png">
+                        <collision-poly>
+                            <point x="0.0357143" y="0.0754717" />
+                            <point x="0.964286" y="0.0754717" />
+                            <point x="0.964286" y="0.924528" />
+                            <point x="0.5" y="0.90566" />
+                            <point x="0.0357143" y="0.924528" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="GameOver" sid="385732442290785">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="219449347685702" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501887" original-source="H:\projek\game\tugas2\pic\GameOver.png">
+                        <collision-poly>
+                            <point x="0.0357143" y="0.0754717" />
+                            <point x="0.964286" y="0.0754717" />
+                            <point x="0.964286" y="0.924528" />
+                            <point x="0.5" y="0.90566" />
+                            <point x="0.0357143" y="0.924528" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="start" sid="811706647533628">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="184005974580190" speed="5">
+                    <frame duration="1" hotspotX="0.503759" hotspotY="0.5" original-source="H:\game instaler\New folder\images\start.png">
+                        <collision-poly>
+                            <point x="0.0225564" y="0.115385" />
+                            <point x="0.496241" y="0" />
+                            <point x="0.977444" y="0.115385" />
+                            <point x="1" y="0.5" />
+                            <point x="0.977444" y="0.884615" />
+                            <point x="0.496241" y="1" />
+                            <point x="0.0225564" y="0.884615" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="judul" sid="743784797282736">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Touch" sid="759533163384441">
+            <plugin id="Touch" />
+        </object-type>
+        <object-type name="Audio" sid="617520846565652">
+            <plugin id="Audio" />
+        </object-type>
+    </object-folder>
+    <families />
+    <layout-folder>
+        <layout>Layout loader.xml</layout>
+        <layout>Layout Game.xml</layout>
+    </layout-folder>
+    <event-folder>
+        <event-sheet>Event Game.xml</event-sheet>
+        <event-sheet>Event loader.xml</event-sheet>
+    </event-folder>
+    <global-instances>
+        <global-instance type="Keyboard" uid="31" />
+        <global-instance type="Touch" uid="41">
+            <properties>
+                <use-mouse-input>Yes</use-mouse-input>
+            </properties>
+        </global-instance>
+        <global-instance type="Audio" uid="42">
+            <properties>
+                <timescale-audio>Off</timescale-audio>
+                <saveload>All</saveload>
+                <play-in-background>No</play-in-background>
+                <positioned-audio></positioned-audio>
+                <panning-model>HRTF</panning-model>
+                <distance-model>Inverse</distance-model>
+                <listener-z-height>600</listener-z-height>
+                <reference-distance>600</reference-distance>
+                <maximum-distance>10000</maximum-distance>
+                <roll-off-factor>1</roll-off-factor>
+            </properties>
+        </global-instance>
+    </global-instances>
+    <sounds-folder>
+        <file name="SoundDestroy.ogg" />
+    </sounds-folder>
+    <music-folder />
+    <files-folder>
+        <file-folder name="Icons">
+            <file name="icon-16.png" />
+            <file name="icon-32.png" />
+            <file name="icon-114.png" />
+            <file name="icon-128.png" />
+            <file name="icon-256.png" />
+            <file name="loading-logo.png" />
+        </file-folder>
+    </files-folder>
+</c2project>

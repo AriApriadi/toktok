@@ -1,2 +1,1 @@
-# toktok
-versi 1.0
+# game-toktok
